@@ -26,7 +26,7 @@ const Upload = () => {
 
                     const pictureurl ={picture: updateData.data.url}
 
-                    fetch(`http://localhost:5000/update/${_id}`, {
+                    fetch(`https://app-server-six.vercel.app/update/${_id}`, {
                         method: "PUT",
                         headers: {
                             "content-type": "application/json"

@@ -33,7 +33,7 @@ const Home = () => {
                         image: imageData.data.url,
                         time: date
                     }
-                    fetch('http://localhost:5000/application', {
+                    fetch('https://app-server-six.vercel.app/application', {
                         method:"POST",
                         headers:{
                             "content-type":"application/json"
